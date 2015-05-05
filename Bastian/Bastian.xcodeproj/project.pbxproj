@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F8B358E1AF9003200A3AFBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B358D1AF9003200A3AFBB /* main.m */; };
+		5F8B35911AF9003200A3AFBB /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B35901AF9003200A3AFBB /* AppDelegate.mm */; };
+		5F8B35941AF9003200A3AFBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B35931AF9003200A3AFBB /* ViewController.m */; };
+		5F8B35971AF9003200A3AFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F8B35951AF9003200A3AFBB /* Main.storyboard */; };
+		5F8B35991AF9003200A3AFBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8B35981AF9003200A3AFBB /* Images.xcassets */; };
+		5F8B359C1AF9003200A3AFBB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F8B359A1AF9003200A3AFBB /* LaunchScreen.xib */; };
+		5F8B35A81AF9003200A3AFBB /* BastianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B35A71AF9003200A3AFBB /* BastianTests.m */; };
+		5F8B35B21AF9006D00A3AFBB /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8B35B11AF9006D00A3AFBB /* JavaScriptCore.framework */; };
+		5F8B35B51AF900B100A3AFBB /* bastian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8B35B31AF900B100A3AFBB /* bastian.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F8B35A21AF9003200A3AFBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F8B35801AF9003200A3AFBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F8B35871AF9003200A3AFBB;
+			remoteInfo = Bastian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F8B35881AF9003200A3AFBB /* Bastian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bastian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8B358C1AF9003200A3AFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8B358D1AF9003200A3AFBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F8B358F1AF9003200A3AFBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F8B35901AF9003200A3AFBB /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		5F8B35921AF9003200A3AFBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F8B35931AF9003200A3AFBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F8B35961AF9003200A3AFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F8B35981AF9003200A3AFBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5F8B359B1AF9003200A3AFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5F8B35A11AF9003200A3AFBB /* BastianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BastianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8B35A61AF9003200A3AFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F8B35A71AF9003200A3AFBB /* BastianTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BastianTests.m; sourceTree = "<group>"; };
+		5F8B35B11AF9006D00A3AFBB /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5F8B35B31AF900B100A3AFBB /* bastian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bastian.cpp; sourceTree = "<group>"; };
+		5F8B35B41AF900B100A3AFBB /* bastian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bastian.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F8B35851AF9003200A3AFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8B35B21AF9006D00A3AFBB /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8B359E1AF9003200A3AFBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F8B357F1AF9003200A3AFBB = {
+			isa = PBXGroup;
+			children = (
+				5F8B35B11AF9006D00A3AFBB /* JavaScriptCore.framework */,
+				5F8B358A1AF9003200A3AFBB /* Bastian */,
+				5F8B35A41AF9003200A3AFBB /* BastianTests */,
+				5F8B35891AF9003200A3AFBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F8B35891AF9003200A3AFBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F8B35881AF9003200A3AFBB /* Bastian.app */,
+				5F8B35A11AF9003200A3AFBB /* BastianTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F8B358A1AF9003200A3AFBB /* Bastian */ = {
+			isa = PBXGroup;
+			children = (
+				5F8B358F1AF9003200A3AFBB /* AppDelegate.h */,
+				5F8B35901AF9003200A3AFBB /* AppDelegate.mm */,
+				5F8B35921AF9003200A3AFBB /* ViewController.h */,
+				5F8B35931AF9003200A3AFBB /* ViewController.m */,
+				5F8B35951AF9003200A3AFBB /* Main.storyboard */,
+				5F8B35981AF9003200A3AFBB /* Images.xcassets */,
+				5F8B359A1AF9003200A3AFBB /* LaunchScreen.xib */,
+				5F8B358B1AF9003200A3AFBB /* Supporting Files */,
+				5F8B35B31AF900B100A3AFBB /* bastian.cpp */,
+				5F8B35B41AF900B100A3AFBB /* bastian.h */,
+			);
+			path = Bastian;
+			sourceTree = "<group>";
+		};
+		5F8B358B1AF9003200A3AFBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F8B358C1AF9003200A3AFBB /* Info.plist */,
+				5F8B358D1AF9003200A3AFBB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F8B35A41AF9003200A3AFBB /* BastianTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F8B35A71AF9003200A3AFBB /* BastianTests.m */,
+				5F8B35A51AF9003200A3AFBB /* Supporting Files */,
+			);
+			path = BastianTests;
+			sourceTree = "<group>";
+		};
+		5F8B35A51AF9003200A3AFBB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F8B35A61AF9003200A3AFBB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F8B35871AF9003200A3AFBB /* Bastian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8B35AB1AF9003200A3AFBB /* Build configuration list for PBXNativeTarget "Bastian" */;
+			buildPhases = (
+				5F8B35841AF9003200A3AFBB /* Sources */,
+				5F8B35851AF9003200A3AFBB /* Frameworks */,
+				5F8B35861AF9003200A3AFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bastian;
+			productName = Bastian;
+			productReference = 5F8B35881AF9003200A3AFBB /* Bastian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F8B35A01AF9003200A3AFBB /* BastianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F8B35AE1AF9003200A3AFBB /* Build configuration list for PBXNativeTarget "BastianTests" */;
+			buildPhases = (
+				5F8B359D1AF9003200A3AFBB /* Sources */,
+				5F8B359E1AF9003200A3AFBB /* Frameworks */,
+				5F8B359F1AF9003200A3AFBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F8B35A31AF9003200A3AFBB /* PBXTargetDependency */,
+			);
+			name = BastianTests;
+			productName = BastianTests;
+			productReference = 5F8B35A11AF9003200A3AFBB /* BastianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F8B35801AF9003200A3AFBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "David Corticchiato";
+				TargetAttributes = {
+					5F8B35871AF9003200A3AFBB = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					5F8B35A01AF9003200A3AFBB = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5F8B35871AF9003200A3AFBB;
+					};
+				};
+			};
+			buildConfigurationList = 5F8B35831AF9003200A3AFBB /* Build configuration list for PBXProject "Bastian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F8B357F1AF9003200A3AFBB;
+			productRefGroup = 5F8B35891AF9003200A3AFBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F8B35871AF9003200A3AFBB /* Bastian */,
+				5F8B35A01AF9003200A3AFBB /* BastianTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F8B35861AF9003200A3AFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8B35971AF9003200A3AFBB /* Main.storyboard in Resources */,
+				5F8B359C1AF9003200A3AFBB /* LaunchScreen.xib in Resources */,
+				5F8B35991AF9003200A3AFBB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8B359F1AF9003200A3AFBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F8B35841AF9003200A3AFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8B35B51AF900B100A3AFBB /* bastian.cpp in Sources */,
+				5F8B35941AF9003200A3AFBB /* ViewController.m in Sources */,
+				5F8B35911AF9003200A3AFBB /* AppDelegate.mm in Sources */,
+				5F8B358E1AF9003200A3AFBB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8B359D1AF9003200A3AFBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F8B35A81AF9003200A3AFBB /* BastianTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F8B35A31AF9003200A3AFBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F8B35871AF9003200A3AFBB /* Bastian */;
+			targetProxy = 5F8B35A21AF9003200A3AFBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F8B35951AF9003200A3AFBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8B35961AF9003200A3AFBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F8B359A1AF9003200A3AFBB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F8B359B1AF9003200A3AFBB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F8B35A91AF9003200A3AFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F8B35AA1AF9003200A3AFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F8B35AC1AF9003200A3AFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bastian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F8B35AD1AF9003200A3AFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bastian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F8B35AF1AF9003200A3AFBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BastianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bastian.app/Bastian";
+			};
+			name = Debug;
+		};
+		5F8B35B01AF9003200A3AFBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BastianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bastian.app/Bastian";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F8B35831AF9003200A3AFBB /* Build configuration list for PBXProject "Bastian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8B35A91AF9003200A3AFBB /* Debug */,
+				5F8B35AA1AF9003200A3AFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F8B35AB1AF9003200A3AFBB /* Build configuration list for PBXNativeTarget "Bastian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8B35AC1AF9003200A3AFBB /* Debug */,
+				5F8B35AD1AF9003200A3AFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5F8B35AE1AF9003200A3AFBB /* Build configuration list for PBXNativeTarget "BastianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F8B35AF1AF9003200A3AFBB /* Debug */,
+				5F8B35B01AF9003200A3AFBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F8B35801AF9003200A3AFBB /* Project object */;
+}
