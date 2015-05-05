@@ -11,6 +11,6 @@
 
 #include <stdio.h>
 
-void sayMyName();
+void callMyName();
 
 #endif /* defined(__Bastian__bastian__) */

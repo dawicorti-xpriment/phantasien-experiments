@@ -36,7 +36,7 @@
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    sayMyName();
+    callMyName();
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
