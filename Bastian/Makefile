@@ -10,20 +10,27 @@ sys_fullname := ${sys_name_lower}-${sys_machine}
 v8_base_url := https://github.com/phantasien/v8/releases/download
 v8_version := 3.27.7
 
+ndk_bin := ${ANDROID_NDK_ROOT}/toolchains/arm-linux-androideabi-4.8/prebuilt/${sys_fullname}/bin
+ndk_base_url := http://dl.google.com/android/ndk
+
 
 all: deps jni-build
-	@ant release
+	@ant debug
 
-jni-build:
+jni-build: v8-arm
 	@V8_HOME=${curdir}/deps/v8 ndk-build
 
 deps: deps/v8
 
-deps/v8: deps/v8.tar.bz2
-	@tar -C deps -jxf deps/v8.tar.bz2
-	@mv deps/v8-${v8_version}-${sys_fullname} deps/v8
-
-deps/v8.tar.bz2:
+deps/v8: 
 	@mkdir -p deps
-	@echo ${sys_name}
-	@curl -L ${v8_base_url}/${v8_version}/v8-${v8_version}-${sys_fullname}.tar.bz2 > deps/v8.tar.bz2
+	@git clone --depth=1 https://github.com/phantasien/v8 deps/v8
+	@make -C deps/v8 builddeps
+
+v8-arm:
+	@make -C deps/v8 android_arm.release -j8
+	@make  CC=${ndk_bin}/arm-linux-androideabi-gcc \
+	       CXX={ndk_bin}/arm-linux-androideabi-g++ \
+	       AR=${ndk_bin}/arm-linux-androideabi-ar \
+	       RANLIB=${ndk_bin}/arm-linux-androideabi-ranlib \
+	       android_arm.release library=shared snapshot=on i18nsupport=off werror=no -j8
