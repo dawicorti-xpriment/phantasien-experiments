@@ -28,9 +28,8 @@ deps/v8:
 	@make -C deps/v8 builddeps
 
 v8-arm:
-	@make -C deps/v8 android_arm.release -j8
 	@make  CC=${ndk_bin}/arm-linux-androideabi-gcc \
 	       CXX={ndk_bin}/arm-linux-androideabi-g++ \
 	       AR=${ndk_bin}/arm-linux-androideabi-ar \
 	       RANLIB=${ndk_bin}/arm-linux-androideabi-ranlib \
-	       android_arm.release library=shared snapshot=on i18nsupport=off werror=no -j8
+	       -C deps/v8 android_arm.release i18nsupport=off werror=no -j8
