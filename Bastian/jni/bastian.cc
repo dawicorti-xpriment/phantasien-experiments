@@ -6,22 +6,9 @@
 
 using namespace v8;
 
-void Add(const FunctionCallbackInfo<Value>& args) {
-  Isolate* isolate = args.GetIsolate();
-  v8::HandleScope handle_scope(isolate);
-
-
-  double val1 = args[0]->NumberValue();
-  double val2 = args[1]->NumberValue();
-
-  Local<Value> result = Local<Value>::New(isolate, Number::New(isolate, val1 + val2));
-  args.GetReturnValue().Set(result);
-}
-
-
 extern "C" JNIEXPORT void JNICALL Java_com_github_phantasien_bastian_BastianMainActivity_callMyName(JNIEnv* env, jobject thiz) {
 
-  const char * rawSource = "1 + 1";
+  const char * rawSource = "foobar";
   
   // Create a new Isolate and make it the current one.
   Isolate* isolate = Isolate::New();
@@ -31,7 +18,7 @@ extern "C" JNIEXPORT void JNICALL Java_com_github_phantasien_bastian_BastianMain
 
   Handle<ObjectTemplate> global = ObjectTemplate::New(isolate);
 
-  global->Set(String::NewFromUtf8(isolate, "add"), FunctionTemplate::New(isolate, Add));
+  global->Set(String::NewFromUtf8(isolate, "foobar"), Number::New(isolate, 42));
 
   // Create a new context.
   Local<Context> context = Context::New(isolate, NULL, global);
